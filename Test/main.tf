@@ -1,4 +1,5 @@
 # Configure the Google Cloud Provider
+#To test the conflict#
 provider "google" {
   project = "your-gcp-project-id" # REPLACE with your GCP Project ID
   region  = "us-central1"          # Change to your desired GCP region
