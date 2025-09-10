@@ -184,3 +184,7 @@ output "object_public_url" {
   description = "The public URL of the uploaded object (if public)."
   value       = "gs://${google_storage_bucket.my_terraform_bucket.name}/${google_storage_bucket_object.my_example_object.name}"
 }
+
+
+
+##Test
